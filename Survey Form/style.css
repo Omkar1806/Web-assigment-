@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@200;400&display=swap");
+    
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: "Poppins";
+}
+
+.form-field {
+    margin-bottom: 20px;
+    font-family: "Poppins";
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+input[type="email"],
+input[type="tel"] {
+    width: 90%;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.checkbox-label {
+    display: inline-block;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+}
+
+    
+#popup .btn {
+    display: block;
+    margin-top: 20px;
+}
